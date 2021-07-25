@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StartGame">
+    tools:context=".StartGameActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,6 +12,7 @@
         android:orientation="vertical">
 
         <ScrollView
+            android:id="@+id/startGameScrollView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="10">
@@ -52,6 +53,18 @@
                     android:text="@string/startGamePlayerButtonText"
                     style="@style/style_start_game_menu_button"
                     android:id="@+id/startGamePlayerButton"/>
+                <Button
+                    android:text="@string/startGameEventButtonText"
+                    style="@style/style_start_game_menu_button"
+                    android:id="@+id/startGameEventButton"/>
+                <Button
+                    android:text="@string/startGameProductionButtonText"
+                    style="@style/style_start_game_menu_button"
+                    android:id="@+id/startGameProductionButton"/>
+                <Button
+                    android:text="@string/startGameCalenderButtonText"
+                    style="@style/style_start_game_menu_button"
+                    android:id="@+id/startGameCalenderButton"/>
                 <Button
                     android:text="@string/startGameSystemButtonText"
                     style="@style/style_start_game_menu_button"
